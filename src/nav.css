@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+ 
+
+ 

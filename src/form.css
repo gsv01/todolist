@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+.input1 , .input2{
+    padding: 10px;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    border: 1px solid gray;
+    outline: none;
+    font-size: 20px;
+}
+
+
+.input1{
+    border-radius: 5px 0px 0px 5px;
+}
+
+.input2{
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(132, 206, 113); 
+    color:white;
+    border-left: 0px;
+    padding: 10px 20px;
+}
+
+.input2:hover{
+    cursor: pointer;
+    background-color: rgb(42, 209, 0);  
+}
+
+.myForm{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
