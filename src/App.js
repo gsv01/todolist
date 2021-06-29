@@ -20,10 +20,11 @@ function App() {
       <BrowserRouter>
       <NAV></NAV>
 
-    
-        <Route path='/' exact component={DISPLAY}></Route>
-        <Route path='/completed' exact component={COMPLETED}></Route>
-      </BrowserRouter>
+        <Switch>
+          <Route path='/' exact component={DISPLAY}></Route>
+          <Route path='/completed' exact component={COMPLETED}></Route>
+        </Switch>    
+    </BrowserRouter>
  
        
     </div>
