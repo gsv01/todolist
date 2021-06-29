@@ -15,20 +15,20 @@ export const myReducer = createSlice({
         },
         removeTodo: (state,action) => {  
             return {
-                todo: state.todo.filter(  x => x != action.payload  ) ,
+                todo: state.todo.filter(  x => x !== action.payload  ) ,
                 completed: state.completed
             }
         },
         completed: (state,action) => { 
             return {
-                todo: state.todo.filter(  x => x != action.payload ),
+                todo: state.todo.filter(  x => x !== action.payload ),
                 completed: [...state.completed, action.payload]
             }
         },
         removeCompleted: (state,action) => { 
             return {
                 todo: state.todo,
-                completed: state.completed.filter(  x => x != action.payload  ) 
+                completed: state.completed.filter(  x => x !== action.payload  ) 
             }
         }
     }
